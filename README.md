@@ -6,4 +6,4 @@ Compatible with iOS 14.0+
 Repo: [https://proprdev.github.io/repo](https://proprdev.github.io/repo)
 
 # License
-[License linked here](https://github.com/proprdev/joe/blob/master/LICENSE)
+[License linked here](https://github.com/proprdev/iBitTorrent/blob/master/LICENSE)
