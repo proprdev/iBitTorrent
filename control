@@ -1,0 +1,8 @@
+Package: com.propr.ibittorrent
+Name: iBitTorrent
+Version: 0.0.1
+Architecture: iphoneos-arm
+Description: An awesome application!
+Maintainer: propr
+Author: propr
+Section: Utilities
