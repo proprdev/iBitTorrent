@@ -5,13 +5,12 @@
 
 - (void)loadView {
 	[super loadView];
-	iBitTorrent* iBitTorrent = [[iBitTorrent alloc] init];
+	iBitTorrent* torrent = [[iBitTorrent alloc] init];
 	
 	NSString* resourcePath = [[NSBundle mainBundle] resourcePath];
 
-	[iBitTorrent openTorrent:[NSURL fileURLWithPath:[resourcePath stringByAppendingPathComponent:@"boba_mochi.torrent"]]];
+	[torrent openTorrent:[NSURL fileURLWithPath:[resourcePath stringByAppendingPathComponent:@"boba_mochi.torrent"]]];
 
-	[iBitTorrent drain];
 }
 
 @end
