@@ -7,7 +7,7 @@ include $(THEOS)/makefiles/common.mk
 APPLICATION_NAME = iBitTorrent
 
 iBitTorrent_FILES = $(wildcard src/*.m)
-iBitTorrent_FRAMEWORKS = UIKit CoreGraphics
+iBitTorrent_FRAMEWORKS = UIKit CoreGraphics UniformTypeIdentifiers Foundation
 iBitTorrent_CFLAGS = -fobjc-arc
 
 include $(THEOS_MAKE_PATH)/application.mk

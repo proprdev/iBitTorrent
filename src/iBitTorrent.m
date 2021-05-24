@@ -2,8 +2,14 @@
 
 @implementation iBitTorrent
 
-- (void)openTorrent:(NSURL*)torrent {
-    NSLog(@"[iBitTorrent] %@", [torrent absoluteString]);
++ (void)debugMessage:(NSString*)string {
+    NSLog(@"iBitTorrent: %@", string);
 }
+
+- (NSURL*)openTorrent:(UIViewController*)sender {
+    return [NSURL URLWithString:@"bruh"];
+}
+
+
 
 @end

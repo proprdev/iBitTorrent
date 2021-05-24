@@ -1,5 +1,5 @@
 #import <UIKit/UIKit.h>
 
-@interface IBRootViewController : UITableViewController
+@interface IBRootViewController : UIViewController
 
 @end
