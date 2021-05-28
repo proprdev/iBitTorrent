@@ -5,6 +5,6 @@
 
 @interface TorrentManager : NSObject
 
-- (void)openTorrent:(NSString*)fileURL;
++ (NSString*)openTorrent:(NSString*)torrentURL;
 
 @end

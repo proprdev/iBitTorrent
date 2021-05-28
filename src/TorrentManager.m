@@ -3,15 +3,11 @@
 
 @implementation TorrentManager
 
-- (void)openTorrent:(NSString*)fileURL {
-    // NSError* err;
++ (NSString*)openTorrent:(NSString*)torrentURL {
+    
+    NSString* torrentContent = [[NSString alloc] initWithData:[NSData dataWithContentsOfFile:torrentURL] encoding:NSASCIIStringEncoding];
 
-
-    NSString *fileContents = [[NSString alloc] initWithContentsOfFile:fileURL encoding:NSASCIIStringEncoding error:nil];
-
-    // NSLog(@"iBitTorrent: %@", err);
-
-    [iBitTorrent debugMessage:fileContents];
+    return torrentContent;
 }
 
 @end
