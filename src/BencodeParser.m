@@ -11,11 +11,11 @@
     
     for (int index = 0; index < length; index++) {
         if ([[TorrentManager openTorrent:torrentURL] characterAtIndex:index] == 'i') {
-            return 1;
+            [self setState:'i'];
         }
     }
 
-    return 2;
+    return 1;
 }
 
 - (void)setState:(char)penis {

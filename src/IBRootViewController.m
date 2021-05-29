@@ -12,6 +12,8 @@
 
 	BencodeParser* bdecoder = [[BencodeParser alloc] init];
 
+	[bdecoder setState:'n'];
+
 	NSLog(@"iBitTorrent: %i", [bdecoder decodeInteger:TESTING_URL]);
 }
 
